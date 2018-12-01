@@ -1868,4 +1868,5 @@ https://jimmysong.io/cheatsheets/kubernetes-kubectl
 | Name                          | Command                                                                                  |
 |-------------------------------+------------------------------------------------------------------------------------------|
 | Patch service to loadbalancer | =kubectl patch svc "$APP_INSTANCE_NAME-grafana" -p '{"spec": {"type": "LoadBalancer"}}'= |
-
+* #  --8<-------------------------- separator ------------------------>8-- :noexport:
+* TODO [#A] try admission controller                               :noexport:
